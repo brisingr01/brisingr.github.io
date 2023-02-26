@@ -1,0 +1,103 @@
+/*universal*/
+body {
+background-color:Gray;
+}
+
+h1 {
+text-align:center;
+}
+
+p {
+text-align:center;
+}
+/*index.html*/
+ol.center li {
+	text-align: left;
+	margin-left: 45%;
+}
+/*table.html*/
+.body1 {
+	background-color:#f7f7f7;
+	background-image:url("table.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+}
+/*buttons.html*/
+.button1 {
+	position: absolute;
+	top: 20%;
+	left: 80%;
+}
+
+.button2 {
+	background-color:pink;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+}
+
+.button2:active {
+	background-color:yellow;
+}
+
+.button3 {
+	position: absolute;
+	top: 45%;
+	left: 25%;
+}
+
+.button4 {
+	position: absolute;
+	top: 70%;
+	left: 10%;
+}
+
+#mydiv {
+	position: absolute;
+}
+
+.button6 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.button6:active {
+	font-size: 80px;
+}
+
+.button7 {
+	position: absolute;
+	top: 75%;
+	left: 65%;
+}
+
+.button8 {
+	position: absolute;
+	top: 65%;
+	left: 90%;
+}
+/*table.html*/
+table.center1 {
+	text-align:center;
+	border: 5px solid rgb(0, 0, 0); 
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+td {
+	border: 2px solid rgb(0, 0, 0);
+	border-collapse: collapse;
+}
+
+th {
+	border: 5px solid rgb(0, 0, 0);
+	border-collapse: collapse;
+}
+/*videos.html*/
+video {
+	display: block;
+	margin: 0 auto;
+}
